@@ -3,10 +3,11 @@
 @section('content')
 
     <div class="container">
+        <img src="{{$user->profile_pic}}" class="img-rounded" style="max-height:100px;">
         <h1>{{$user->name}}'s Profile</h1>
         <p>See what {{$user->name}} has been upto.</p>
         <hr>
-
+        
         <div class="row">
             <div class="col-md-6">
                 <h3>Questions</h3>

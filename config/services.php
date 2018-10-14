@@ -13,6 +13,11 @@ return [
     | to have a conventional place to find your various credentials.
     |
     */
+    'nexmo'=>[
+        'key'=> env('NEXMO_KEY'),
+        'secret'=>env('NEXMO_SECRET'),
+        'sms_from'=>'918867726007'
+    ],
 
     'mailgun' => [
         'domain' => env('MAILGUN_DOMAIN'),
